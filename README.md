@@ -38,6 +38,12 @@ This repository documents a complete workflow for rapidly prototyping and deploy
 │                     │    │                     │    │                     │
 │ Deployed on Vercel  │    │ Deployed on Vercel  │    │ Aiven Cloud         │
 └─────────────────────┘    └─────────────────────┘    └─────────────────────┘
+ ┆                           ┆                           ┆
+ └···························┼···························┘
+                             ┆
+                    ┌────────▼────────┐
+                    │   Claude Code   │
+                    └─────────────────┘
 ```
 
 ## Key Features Demonstrated
