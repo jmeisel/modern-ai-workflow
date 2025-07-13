@@ -70,6 +70,8 @@ Reference your data structure from Phase 1:
 ## Phase 3: API Development (30 minutes)
 **Key Time Saver: Claude generates secure API with proven patterns**
 
+**📖 Reference: [apidevelopment.md](./apidevelopment.md)**
+
 ### 1. Create API Project
 Tell Claude:
 > "Create an Express.js API for my [APP TYPE] with full CRUD operations.
