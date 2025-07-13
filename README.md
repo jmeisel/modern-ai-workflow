@@ -18,8 +18,18 @@ This repository documents a complete workflow for rapidly prototyping and deploy
 ## Project Architecture
 
 ```
+                        ┌─────────────────────┐
+                        │     Aiven Vibe      │
+                        │                     │
+                        │ • Frontend App      │
+                        │ • UI Scaffolding    │
+                        │                     │
+                        │  Deployed on Aiven  │
+                        └─────────┬───────────┘
+                                  │
+                                  ▼
 ┌─────────────────────┐    ┌─────────────────────┐    ┌─────────────────────┐
-│   Frontend App      │    │     API Service     │    │   Aiven PostgreSQL  │
+│ Test / Simulate Data│    │     API Service     │    │   Aiven PostgreSQL  │
 │                     │    │                     │    │                     │
 │ • Next.js 15        │◄──►│ • Express.js        │◄──►│ • Managed Database  │
 │ • TypeScript        │    │ • REST endpoints    │    │ • SSL encryption    │
